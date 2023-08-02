@@ -20,7 +20,7 @@ def caracteres_lineas():
             for char in line:
                 print(char, end='')
                 character_counter += 1
-        line=stream.readlines(10)
+        lines=stream.readlines(10)
     stream.close()
     print(f"\nEl archivo tiene {character_counter} caracteres")
     print(f"\nEl archivo tiene {line_counter} lineas")
