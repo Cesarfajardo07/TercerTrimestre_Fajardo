@@ -1,7 +1,7 @@
 '''
 Generar un archivo que guarde los datospersonales
 Crear una funvion que cuente los caracteres ingresados
-Crear una funcion que cuente las lineas 
+Crear una funcion que cuente las lineas
 
 '''
 with open("info.txt","w") as archivo:
@@ -22,12 +22,12 @@ def caracteres_lineas():
                 character_counter += 1
         lines=stream.readlines(10)
     stream.close()
-    print(f"\nEl archivo tiene {character_counter} caracteres")
-    print(f"\nEl archivo tiene {line_counter} lineas")
-                
-        
+    print(f"\n\nEl archivo tiene {character_counter} caracteres")
+    print(f"El archivo tiene {line_counter} lineas")
 
-    
+
+
+
 
 caracteres_lineas()
 

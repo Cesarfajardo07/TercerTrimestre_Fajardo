@@ -8,9 +8,9 @@ personas= [
 
 with open('personas.csv','w', newline='') as archivo:
     writer=csv.writer(archivo,delimiter=';')
-    writer.writerows(personas)
-    #writer.writerow(personas)
-   
+    writer.writerows(personas)#rows es para varias filas
+    #writer.writerow(personas): row es para una fila
+
 with open('personas.csv','r') as archivo:
     reader = csv.reader(archivo, delimiter=';')
     for row in reader:
