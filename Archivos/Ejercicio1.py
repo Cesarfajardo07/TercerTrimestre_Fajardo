@@ -8,7 +8,7 @@ with open("info.txt","w") as archivo:
     archivo.write('Mi nombre es Cesar Luis Fajardo Jimenez\n')
     archivo.write('Mi edad es de 17\n')
     archivo.write('Mi telefono es 3222208389\n')
-    archivo.write('Mi correo es fajardo07cesar@gmail.com\n')
+    archivo.write('Mi correo es fajardo07cesar@gmail.com')
 
 def caracteres_lineas():
     character_counter= line_counter = 0
