@@ -2,10 +2,12 @@
 Buscar una manera diferente de  iterar las lineas sin usar el while
 
 '''
+from os import strerror
 try:
     character_counter = line_counter = 0
     stream = open('text.txt', 'rt')
     line = stream.readline()
+
     while line != '':
         line_counter += 1
         for char in line:
