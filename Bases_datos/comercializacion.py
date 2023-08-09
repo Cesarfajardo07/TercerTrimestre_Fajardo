@@ -21,9 +21,9 @@ cursor.execute("SHOW TABLES")
 for n in cursor:
     print(n)
 
-cursor.execute("""INSERT INTO users (id,role_id,seller_id,name,email,password)VALUES (1,23,30,'Felipe Guzman','felipe23@gmail.com','F123G') """)
+cursor.execute("""INSERT INTO usuarios (id_usuario,id_rol,id_vendedor,nombre,clave,email) VALUES(12,8,4,'Laura Forero','1111','laura14f@gmail.com') """)
 comercializadora.commit()
-cursor.execute('select * from users')
+cursor.execute('select * from usuarios')
 for ap in cursor:
      print(ap[0])
      print(ap[1])
