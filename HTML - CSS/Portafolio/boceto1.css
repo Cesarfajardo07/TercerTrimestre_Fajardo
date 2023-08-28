@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(12, 12, 97);
+}
+h1{
+    color: red;
+    font-size: 100px;
+}
+.nombre{
+    margin: 250px 300px;
+}
