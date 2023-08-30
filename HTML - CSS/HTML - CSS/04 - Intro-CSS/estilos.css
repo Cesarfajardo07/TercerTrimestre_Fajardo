@@ -27,7 +27,7 @@ p#primera-noticia {
     color:aquamarine;
 }
 
-.autor, .fecha, .ubicacion, h1, #segunda-noticia{ 
+.autor, .fecha, .ubicacion, h1, #segunda-noticia{
     text-decoration: underline;
 }
 

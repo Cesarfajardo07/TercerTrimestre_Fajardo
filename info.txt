@@ -2,3 +2,11 @@ Mi nombre es Cesar Luis Fajardo Jimenez
 Mi edad es de 17
 Mi telefono es 3222208389
 Mi correo es fajardo07cesar@gmail.com
+
+.item3{
+    display: flex;
+    flex-direction:row;
+    background:black;
+    grid-row:3/4;
+    grid-column: 1/2;
+}
