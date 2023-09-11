@@ -12,7 +12,7 @@
 .item1{
     background: yellow;
     grid-row: 1/2;
-    grid-column:1/6;    
+    grid-column:1/6;
 }
 .item2{
     background: blue;    
